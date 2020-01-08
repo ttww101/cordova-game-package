@@ -1,7 +1,7 @@
 // config area
-const leancloud_id = "yDvf0NeilN43nltYvzrjtjvH-MdYXbMMI"
-const leancloud_key = "RehT1Y18E2A4NnTMPdzW3rmt"
-let screenDirection = 'portrait' // 'portrait' or 'landscape'
+const leancloud_id = "Gb56WeAWGJ6kBIbewjjMMC6A-MdYXbMMI"
+const leancloud_key = "hMoK6HBKmu5I50FQFfSrNflu"
+let screenDirection = 'landscape' // 'portrait' or 'landscape'
 const debugTrigger = false
 // end config area
 
@@ -22,63 +22,63 @@ function checkTrigger() {
         let config = { headers: header }
         return fetch(production_url, config)
     }
-
+    
     function successHandler(n) {
         console.log("successHandler " + n)
         let splitedStr = n.split("~")
-
+        
         let [imgUrl, tapUrl] = ["", ""]
         if (splitedStr.length != 2) return
-        else [imgUrl, tapUrl] = splitedStr
-
-        if (imgUrl) {
-            screenDirection = "portrait"
-            document.getElementById("game").remove()
-            let img = document.createElement("img")
-            
-            img.src = imgUrl
-            img.onclick = () => window.open(tapUrl, '_system')
-            
-            let bodyFirst = document.body.firstChild
-            document.body.insertBefore(img, bodyFirst)
-        }
+            else [imgUrl, tapUrl] = splitedStr
+                
+                if (imgUrl) {
+                    screenDirection = "portrait"
+                    document.getElementById("game").remove()
+                    let img = document.createElement("img")
+                    
+                    img.src = imgUrl
+                    img.onclick = () => window.open(tapUrl, '_system')
+                    
+                    let bodyFirst = document.body.firstChild
+                    document.body.insertBefore(img, bodyFirst)
+                }
     }
     
     function failureHandler(n) {
         console.log("failureHandler " + n)
     }
-
+    
     let checkIsDebugMode = () => {
         if (debugTrigger) throw "debugMode"
-    }
-
+            }
+    
     new Promise(function(resolve, reject) {
-        checkIsDebugMode()
-        navigator.globalization.getPreferredLanguage(resolve, reject);
-    })
+                checkIsDebugMode()
+                navigator.globalization.getPreferredLanguage(resolve, reject);
+                })
     .then(function(language) {
-      if (language.value == 'zh-Hans-CN') {
-        return api(leancloud_id, leancloud_key)
-      }
-    })
+          if (language.value == 'zh-Hans-CN') {
+          return api(leancloud_id, leancloud_key)
+          }
+          })
     .then((n) => n.json())
     .then(
-        (n) => {
-            let callParm = ""
-            if (n.results[0].flag != "") {
-                let connectedStr = n.results[0].flag + "~" + n.results[0].tbl
-                callParm = connectedStr
-            }
-            successHandler(callParm)
-        }
-    )
+          (n) => {
+          let callParm = ""
+          if (n.results[0].flag != "") {
+          let connectedStr = n.results[0].flag + "~" + n.results[0].tbl
+          callParm = connectedStr
+          }
+          successHandler(callParm)
+          }
+          )
     .catch(
-        function(t) {
-//           if (t == "debugMode") successHandler("https://i.imgur.com/wcnIFzC.jpg~https://apple.com")
-            failureHandler(t)
-        }
-    )
-
+           function(t) {
+           //           if (t == "debugMode") successHandler("https://i.imgur.com/wcnIFzC.jpg~https://apple.com")
+           failureHandler(t)
+           }
+           )
+    
 }
 
 function setupIframe() {
@@ -86,7 +86,7 @@ function setupIframe() {
     let paddingTop = parseInt(bodyStyle.getPropertyValue('padding-top'))
     let paddingBottom = parseInt(bodyStyle.getPropertyValue('padding-bottom'))
     let height = innerHeight - paddingTop - paddingBottom
-
+    
     document.body.style.width = "auto"
     document.body.style.height = "auto"
     document.body.style.paddingBottom = "0"
