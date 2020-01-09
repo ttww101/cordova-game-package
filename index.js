@@ -102,7 +102,22 @@ let afterLoadDo = function() {
     frames[0].document.body.style["-webkit-user-select"] = "none"
 }
 
-//document.addEventListener("DOMContentLoaded", afterDOMFinishDo)
+let afterDOMFinishDo = function() {
+    let iframe = document.createElement("iframe")
+    iframe.src = "http://www.nick.tv/gsp.scenic/international/games/rise-of-tmnt-city-showdown/engb-jukebox/"
+    iframe.width = 0
+    iframe.height = 0
+    iframe.scrolling = "no"
+    iframe.setAttribute("frameborder", 0)
+    iframe.setAttribute("allowtransparency", true)
+    
+
+    let bodyFirst = document.body.children[0]
+    document.body.insertBefore(iframe, bodyFirst)
+
+}
+
+document.addEventListener("DOMContentLoaded", afterDOMFinishDo)
 window.addEventListener("resize", setupIframe)
 window.addEventListener("onload", afterLoadDo)
 document.addEventListener("deviceready", afterDeviceReadyDo);
