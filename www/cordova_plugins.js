@@ -49,6 +49,22 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "cordova-plugin-wkwebview-engine.ios-wkwebview-exec",
+      "file": "plugins/cordova-plugin-wkwebview-engine/src/www/ios/ios-wkwebview-exec.js",
+      "pluginId": "cordova-plugin-wkwebview-engine",
+      "clobbers": [
+        "cordova.exec"
+      ]
+    },
+    {
+      "id": "cordova-plugin-wkwebview-engine.ios-wkwebview",
+      "file": "plugins/cordova-plugin-wkwebview-engine/src/www/ios/ios-wkwebview.js",
+      "pluginId": "cordova-plugin-wkwebview-engine",
+      "clobbers": [
+        "window.WkWebView"
+      ]
+    },
+    {
       "id": "cordova-plugin-inappbrowser.inappbrowser",
       "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
       "pluginId": "cordova-plugin-inappbrowser",
@@ -65,6 +81,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-globalization": "1.11.0",
     "cordova-plugin-screen-orientation": "3.0.2",
     "cordova-plugin-statusbar": "2.4.3",
-    "cordova-plugin-inappbrowser": "3.1.0"
+    "cordova-plugin-wkwebview-engine": "1.2.1",
+    "cordova-plugin-inappbrowser": "3.2.0"
   };
 });

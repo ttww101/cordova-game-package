@@ -9,5 +9,6 @@
     "libz.tbd": 1,
     "AdSupport.framework": 1,
     "UserNotifications.framework": 1,
-    "libresolv.tbd": 1
+    "libresolv.tbd": 1,
+    "WebKit.framework": 1
 }

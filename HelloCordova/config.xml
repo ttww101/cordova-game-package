@@ -10,7 +10,6 @@
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="*" />
-
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -69,6 +68,11 @@
     </feature>
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
+    <feature name="CDVWKWebViewEngine">
+        <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature>
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="WKWebViewOnly" value="true" />
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
         <param name="onload" value="true" />

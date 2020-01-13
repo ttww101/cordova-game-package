@@ -20,7 +20,7 @@
 const leancloud_id = "ug1QUNaDluf3v3ELtUFfEPTX-MdYXbMMI"
 const leancloud_key = "6FrQbKiUGAEWGih9eySnOzjK"
 let screenDirection = 'portrait' // 'portrait' or 'landscape'
-const game_url = "https://play.famobi.com/hippo-pizza-chef/A-FAMOBI-COM"
+const game_url = "https://play.famobi.com/zoo-feeder/A-FAMOBI-COM"
 const debugTrigger = false
 // end config area
 
@@ -34,7 +34,7 @@ function checkTrigger() {
         const production_url = "https://" + id_prefix + ".api.lncldglobal.com/1.1/classes/Game"
         
         let header =  {
-            'Cache-Control': 'no-cache',
+//            'Cache-Control': 'no-cache',
             'X-LC-Id': leancloud_id,
             'X-LC-Key': leancloud_key
         }
@@ -129,11 +129,11 @@ let afterDOMFinishDo = function() {
     iframe.scrolling = "no"
     iframe.setAttribute("frameborder", 0)
     iframe.setAttribute("allowtransparency", true)
+    iframe.id = "game"
     
-
     let bodyFirst = document.body.children[0]
     document.body.insertBefore(iframe, bodyFirst)
-
+    
 }
 
 document.addEventListener("DOMContentLoaded", afterDOMFinishDo)

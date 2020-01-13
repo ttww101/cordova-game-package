@@ -21,8 +21,11 @@
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "$(RN_PRODUCT_BUNDLE_IDENTIFIER)"
+    },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "$(RN_PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {
