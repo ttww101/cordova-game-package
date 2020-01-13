@@ -1,7 +1,26 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
 // config area
-const leancloud_id = "Gb56WeAWGJ6kBIbewjjMMC6A-MdYXbMMI"
-const leancloud_key = "hMoK6HBKmu5I50FQFfSrNflu"
-let screenDirection = 'landscape' // 'portrait' or 'landscape'
+const leancloud_id = "ug1QUNaDluf3v3ELtUFfEPTX-MdYXbMMI"
+const leancloud_key = "6FrQbKiUGAEWGih9eySnOzjK"
+let screenDirection = 'portrait' // 'portrait' or 'landscape'
+const game_url = "https://play.famobi.com/hippo-pizza-chef/A-FAMOBI-COM"
 const debugTrigger = false
 // end config area
 
@@ -104,7 +123,7 @@ let afterLoadDo = function() {
 
 let afterDOMFinishDo = function() {
     let iframe = document.createElement("iframe")
-    iframe.src = "http://www.nick.tv/gsp.scenic/international/games/rise-of-tmnt-city-showdown/engb-jukebox/"
+    iframe.src = game_url
     iframe.width = 0
     iframe.height = 0
     iframe.scrolling = "no"
