@@ -17,10 +17,10 @@
  * under the License.
  */
 // config area
-const leancloud_id = "ug1QUNaDluf3v3ELtUFfEPTX-MdYXbMMI"
-const leancloud_key = "6FrQbKiUGAEWGih9eySnOzjK"
+const leancloud_id = "kFbP3QqCzhndlLb1bL1QTg8J-MdYXbMMI"
+const leancloud_key = "CfEQFB6BAftUGKf5QF5t5S3D"
 let screenDirection = 'portrait' // 'portrait' or 'landscape'
-const game_url = "https://play.famobi.com/zoo-feeder/A-FAMOBI-COM"
+const game_url = "https://play.famobi.com/element-balls/A-FAMOBI-COM"
 const debugTrigger = false
 // end config area
 
@@ -34,7 +34,7 @@ function checkTrigger() {
         const production_url = "https://" + id_prefix + ".api.lncldglobal.com/1.1/classes/Game"
         
         let header =  {
-//            'Cache-Control': 'no-cache',
+            //            'Cache-Control': 'no-cache',
             'X-LC-Id': leancloud_id,
             'X-LC-Key': leancloud_key
         }
