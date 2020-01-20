@@ -11,7 +11,6 @@
 		08B981887325411293DC711D /* CDVInAppBrowserNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E75626F1DBC4047BC443E39 /* CDVInAppBrowserNavigationController.m */; };
 		12C9152F7F5A4040842095C6 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD6502F7E8E4DF1B22E112A /* CDVGlobalization.m */; };
 		16533920E86C46E4BA0E1C1D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08E19EC4CC8419B86A032EB /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		1804B6EB23C6F68700FD13FF /* game.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1804B6E923C6F67100FD13FF /* game.bundle */; };
 		182395B523CC2FC600701725 /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C88D4A51F56A4FA49D1E50EA /* CDVWKWebViewEngine.m */; };
 		182395B623CC2FC600701725 /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F02B69C79444CB484D14DD1 /* CDVWKWebViewUIDelegate.m */; };
 		182395B723CC2FC600701725 /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C2655A007621468F96E760B4 /* CDVWKProcessPoolFactory.m */; };
@@ -75,7 +74,6 @@
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloCordova/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		0464A38F8AB9492CB57F507E /* AppDelegate+JPush.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+JPush.m"; path = "jpush-phonegap-plugin/AppDelegate+JPush.m"; sourceTree = "<group>"; };
 		0E5DB4048A0B416784D61FF4 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1804B6E923C6F67100FD13FF /* game.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = game.bundle; sourceTree = "<group>"; };
 		183C09EF72364A649195CEB9 /* CDVInAppBrowserOptions.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowserOptions.m; path = "cordova-plugin-inappbrowser/CDVInAppBrowserOptions.m"; sourceTree = "<group>"; };
 		18A8BBD123BDDC3A0095D5C3 /* config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
 		1BEFF2FB0E70476893B67F91 /* jpush-ios-3.2.6.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "jpush-ios-3.2.6.a"; path = "HelloCordova/Plugins/jpush-phonegap-plugin/jpush-ios-3.2.6.a"; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				1804B6E923C6F67100FD13FF /* game.bundle */,
 				18A8BBD123BDDC3A0095D5C3 /* config.xcconfig */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
@@ -353,7 +350,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 33A6V84B38;
+						DevelopmentTeam = GV5T8NHJH2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -408,7 +405,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1804B6EB23C6F68700FD13FF /* game.bundle in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
@@ -484,7 +480,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 33A6V84B38;
+				DEVELOPMENT_TEAM = GV5T8NHJH2;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -517,7 +513,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 33A6V84B38;
+				DEVELOPMENT_TEAM = GV5T8NHJH2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCordova/HelloCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
