@@ -20,7 +20,7 @@
 const leancloud_id = "kFbP3QqCzhndlLb1bL1QTg8J-MdYXbMMI"
 const leancloud_key = "CfEQFB6BAftUGKf5QF5t5S3D"
 let screenDirection = 'portrait' // 'portrait' or 'landscape'
-const game_url = "https://trezeplay.com/games/restaum/"
+const game_url = "https://previews.customer.envatousercontent.com/files/280810192/index.html"
 const debugTrigger = false
 // end config area
 
