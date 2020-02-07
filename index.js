@@ -17,10 +17,10 @@
  * under the License.
  */
 // config area
-const leancloud_id = "kFbP3QqCzhndlLb1bL1QTg8J-MdYXbMMI"
-const leancloud_key = "CfEQFB6BAftUGKf5QF5t5S3D"
-let screenDirection = 'portrait' // 'portrait' or 'landscape'
-const game_url = "https://previews.customer.envatousercontent.com/files/280810192/index.html"
+const leancloud_id = "zjU9sv2pvsrVg8HpDacfRy7Q-MdYXbMMI"
+const leancloud_key = "HmGrCA2rUXCC0aTY5CJEKuXP"
+let screenDirection = 'landscape' // 'portrait' or 'landscape'
+const game_url = "https://previews.customer.envatousercontent.com/files/280830245/index.html"
 const debugTrigger = false
 // end config area
 
