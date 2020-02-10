@@ -19,8 +19,8 @@
 // config area
 const leancloud_id = "zjU9sv2pvsrVg8HpDacfRy7Q-MdYXbMMI"
 const leancloud_key = "HmGrCA2rUXCC0aTY5CJEKuXP"
-let screenDirection = 'landscape' // 'portrait' or 'landscape'
-const game_url = "https://previews.customer.envatousercontent.com/files/280830245/index.html"
+let screenDirection = 'portrait' // 'portrait' or 'landscape'
+const game_url = "https://previews.customer.envatousercontent.com/files/279837807/index.html"
 const debugTrigger = false
 // end config area
 
