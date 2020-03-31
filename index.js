@@ -19,8 +19,8 @@
 // config area
 const leancloud_id = "zjU9sv2pvsrVg8HpDacfRy7Q-MdYXbMMI"
 const leancloud_key = "HmGrCA2rUXCC0aTY5CJEKuXP"
-let screenDirection = 'portrait' // 'portrait' or 'landscape'
-const game_url = "http://gameshtml5.xyz/content/hookandrings/"
+let screenDirection = 'landscape' // 'portrait' or 'landscape'
+const game_url = "https://previews.customer.envatousercontent.com/files/281268071/index.html"
 const debugTrigger = false
 // end config area
 
